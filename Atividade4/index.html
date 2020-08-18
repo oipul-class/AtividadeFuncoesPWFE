@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade 4</title>
+        <style>
+             a {
+                text-decoration: none;
+                color: black;
+                font-size: inherit;
+                font-family: inherit;
+            }
+
+            #Titulo {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                border: solid 2px black;
+                border-radius: 25px;
+                background-color: lightcyan;
+                padding-top: 5px;
+                width: 450px;
+                height: 80px;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            #Voltar {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                border: solid 2px black;
+                border-radius: 25px;
+                background-color: lightcyan;
+                padding-top: 5px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 100px;
+                height: 22px;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #Formulario {
+                width: 500px;
+                height: 325px;
+                border: solid 2px black;
+                border-radius: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: lightgrey;
+            }
+            
+            #EntradaDoNome {
+                width: 250px;
+                height: 25px;
+                padding-top: 5px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+                border: solid 2px black;
+                border-radius: 20px;
+            }
+
+            #Areas {
+                width: 250px;
+                height:185px;
+                padding-top: 2px;
+                text-align: center;
+                border: solid 2px black;
+                border-radius: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+            }
+
+            .areaRadios {
+                width: 120px;
+                height: 20px;
+                border: solid 2px black;
+                border-radius: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+            }
+
+            #SaidaDados {
+                margin-top: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 450px;
+                height: 40px;
+                border: solid 2px black;
+                border-radius: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="Titulo">
+            <h1>
+                Formulario de TI
+            </h1>
+        </div>
+
+        <div id="Voltar">
+            <a href="../index.html">
+                Voltar
+            </a>
+        </div>
+
+        <div id="Formulario">
+            <form>
+                <div id="EntradaDoNome">
+                    nome:
+                    <input type="text" value="" placeholder="insira seu nome" id="EntradaNome">
+                </div>
+                
+                <div id="Areas">
+                    área profissional de preferência
+                    
+                    <div class="areaRadios"> 
+                        <input type="checkbox" value="Front-End" id="frontEnd">
+                        Front-End
+                    </div>
+                    
+                    <div class="areaRadios">
+                        <input type="checkbox" value="Back-End"  id="backEnd">
+                        Back-End
+                        </div>
+
+                    <div class="areaRadios">
+                        <input type="checkbox" value="Web Design" id="WebDesign">
+                        Web Design
+                    </div>
+
+                    <div class="areaRadios">
+                        <input type="checkbox" value="DBA" id="DBA">
+                            DBA
+                    </div>
+                </div>
+
+                <div id="SaidaDados">
+
+                </div>
+            
+            </form>
+        </div>
+        <script src="Script.js"></script>
+    </body>
+</html>

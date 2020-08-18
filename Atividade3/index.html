@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ativiade 3</title>
+        <style>
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: inherit;
+                font-family: inherit;
+            }
+
+            #Titulo {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                border: solid 2px black;
+                border-radius: 25px;
+                background-color: lightcyan;
+                padding-top: 5px;
+                width: 450px;
+                height: 80px;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            #Voltar {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                border: solid 2px black;
+                border-radius: 25px;
+                background-color: lightcyan;
+                padding-top: 5px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 100px;
+                height: 22px;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #Formulario {
+                width: 500px;
+                height: 275px;
+                border: solid 2px black;
+                border-radius: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: lightgrey;
+            }
+
+            #entradaDoNome {
+                margin-top: 15px;
+                width: 250px;
+                height: 20px;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+
+            #entradaNome {
+                width: inherit;
+                height: inherit;
+            }
+
+            .EntradaEstados {
+                width: 150px;
+                height: 20px;
+                border: solid 2px black;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 15px;
+            }
+
+            #Mensagem {
+                width: 480px;
+                margin-left: auto;
+                margin-right: auto;
+                height: 30px;
+                margin-top: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="Titulo">
+            <h1>
+                Formulario
+            </h1>
+        </div>
+
+        <div id="Voltar">
+            <a href="../index.html"> 
+                Voltar
+            </a>
+        </div>
+
+        <div id="Formulario">
+            <form>
+                <div id="entradaDoNome">
+                    <input type="text" id="entradaNome" value="" placeholder="Insira seu nome">
+                </div>
+                
+                <div class="EntradaEstados">
+                    <input type="radio" name="Estado" checked value="Espírito Santo" class="Estado"> 
+                    Espírito Santo
+                </div>
+                <div class="EntradaEstados">
+                    <input type="radio" name="Estado" value="Minas Gerais" class="Estado"> 
+                    Minas Gerais
+                </div>
+                
+                <div class="EntradaEstados">
+                    <input type="radio" name="Estado" value="Rio de Janeiro" class="Estado">
+                    Rio de Janeiro
+                </div>
+                <div class="EntradaEstados">
+                    <input type="radio" name="Estado" value="São Paulo" class="Estado">
+                    São Paulo
+                </div>
+                
+                <div id="Mensagem">
+    
+                </div>
+            
+            </form>
+        </div>
+        
+        <script src="Script.js"></script>
+    </body>
+</html>

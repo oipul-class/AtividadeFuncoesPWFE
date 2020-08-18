@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade 2</title>
+        <style>
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: inherit;
+                font-family: inherit;
+            }
+            
+            #Titulo {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                border: solid 2px black;
+                border-radius: 25px;
+                background-color: lightcyan;
+                padding-top: 5px;
+                width: 450px;
+                height: 80px;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            #Voltar {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                border: solid 2px black;
+                border-radius: 25px;
+                background-color: lightcyan;
+                padding-top: 5px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 100px;
+                height: 22px;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #detector {
+                margin-left: auto;
+                margin-right: auto;
+                width: 500px;
+                height: 150px;
+                border: solid 2px black;
+                border-radius: 15px;
+                background-color: lightgrey;
+            }
+
+            #Valor1 {
+                margin-top: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 15px;
+            }
+
+            #detectorEntrada {
+                height: 80px;
+                width: 400px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #detectorSaida {
+                height: 32px;
+                width: 400px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="Titulo">
+            <h1>
+                Detector de numero maior
+            </h1>
+        </div>
+
+        <div id="Voltar">
+            <a href="../index.html">
+                Voltar
+            </a>
+        </div>
+
+        <div id="detector">
+            <form>
+                <div id="detectorEntrada">
+                    Valor 1: <input type="number" value="" id="Valor1"><br>
+                    Valor 2: <input type="number" value="" id="Valor2"><br>
+                </div>
+                <div id="detectorSaida">
+                    <p id="Resultado"></p>
+                </div>
+            </form>
+        </div>
+
+        <script src="Script.js"></script>
+    </body>
+</html>
